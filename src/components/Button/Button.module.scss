@@ -1,0 +1,34 @@
+.wrapper {
+    font-size: 2.5rem;
+    border-radius: 4px;
+    padding: 9px 16px;
+    background: none;
+    font-weight: 700;
+    border: 1px solid black;
+    cursor: pointer;
+    user-select: none;
+
+    + .wrapper {
+        margin-left: 1rem;
+    }
+
+    &.disabled {
+        pointer-events: none;
+        opacity: 0.5;
+    }
+}
+
+.primary {
+    background-color: lightgray;
+    color: black;
+    &:hover {
+        background-color: gray;
+    }
+}
+.secondary {
+    background-color: lightblue;
+    color: black;
+    &:hover {
+        background-color: cadetblue;
+    }
+}

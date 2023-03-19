@@ -1,0 +1,17 @@
+
+.containerFluid {
+    margin-top: 10rem;
+
+    .main {
+        display: flex;
+        justify-content: space-around;
+        
+        .content {
+            border-left: 1px solid black;
+            flex-grow: 4;
+            background-color: white;
+            height: 1000px;
+        }
+    }
+    
+}

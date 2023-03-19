@@ -1,0 +1,68 @@
+
+:root {
+    --header-height: 10rem;
+}
+
+header {
+    font-size: 2.5rem;
+    background-color: white;
+    border-bottom: 1px solid black;
+    height: var(--header-height);
+    line-height: 10rem;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+
+    display: flex;
+    justify-content: space-around;
+
+    .logo {
+        display: flex;
+        img {
+            margin: calc(var(--header-height) / 4) 1rem 0 0;
+            height: calc(var(--header-height) / 2);
+        }
+    }
+
+    .search {
+        form {
+            margin-top: calc(var(--header-height) / 4);
+            display: flex;
+            position: relative;
+        }
+        
+        input {
+            font-size: 2.5rem;
+            width: 50rem;
+            height: calc(var(--header-height) / 2);
+            padding-left: 1rem;
+        }
+        
+        .divide {
+            border-left: 1px solid gray;
+            position: absolute;
+            height: calc(var(--header-height) / 2);
+            right: 5rem;
+        }
+
+        button {
+            font-size: 2.5rem;
+            background: none;
+            padding: 0px;
+            border: none;
+            cursor: pointer;
+            opacity: 0.8;
+            
+            position: absolute;
+            right: 1.25rem;
+            top: 1.25rem;
+            
+            &:hover {
+                opacity: 1;
+            }
+        }
+    }
+}

@@ -1,0 +1,17 @@
+
+.sidebar {
+
+    background-color: white;
+
+    flex-grow: 1;
+    text-align: center;
+    position: relative;
+    height: calc(100vh - 10rem);
+
+    .menu {
+    }
+    
+    .collapseBtn {
+        border: 1px solid black;
+    }
+}
