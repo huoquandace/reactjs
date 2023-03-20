@@ -1,6 +1,7 @@
 
 
 .home {
+    margin-top: 2rem;
     height: 120vh;
     .banner {
         border: 1px solid black;
@@ -27,5 +28,9 @@
                 width: 100%;
             }
         }
+    }
+
+    .products {
+        margin-top: 10rem;
     }
 }

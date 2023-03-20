@@ -1,6 +1,7 @@
 
 import Slideshow from "../../components/Slideshow";
 import styles from './Home.module.scss'
+import ProductList from "../../components/Product/ProductList";
 
 function Home() {
     return (
@@ -11,6 +12,9 @@ function Home() {
                     <img src="https://dummyimage.com/1980x1080/999/fff&text=lorem" />
                     <img src="https://dummyimage.com/1980x1080/999/fff&text=ipsum" />
                 </div>
+            </div>
+            <div className={styles.products}>
+                <ProductList />
             </div>
         </div>
     );
