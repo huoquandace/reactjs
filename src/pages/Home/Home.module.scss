@@ -1,0 +1,31 @@
+
+
+.home {
+    height: 120vh;
+    .banner {
+        border: 1px solid black;
+        height: 25rem;
+        display: flex;
+        justify-content: space-between;
+        
+        .slider {
+            border: 1px solid black;
+            width: 60%;
+        }
+
+        .hotnews {
+            border: 1px solid black;
+            width: 40%;
+            margin-left: 1rem;
+            height: 100%;
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column;
+            img {
+                height: 49%;
+                border: 1px solid black;
+                width: 100%;
+            }
+        }
+    }
+}

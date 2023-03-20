@@ -22,8 +22,8 @@ export default function Header() {
             </div>
 
             <div className={styles.actions}>
-                <Button primary>Login</Button>
-                <Button className="custom" secondary >Register</Button>
+                <Button>Login</Button>
+                <Button className="custom" >Register</Button>
             </div>
         </header>
     );
