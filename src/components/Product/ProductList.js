@@ -18,7 +18,7 @@ export default function ProductList() {
 
 	return (
 		<div className={styles.productList}>
-			{products.map((product, index) => <ProductItem product={product} key={index} />)}
+			{products && products.map((product, index) => <ProductItem product={product} key={index} />)}
 		</div>
 	)
 }

@@ -13,6 +13,7 @@ function Home() {
                     <img src="https://dummyimage.com/1980x1080/999/fff&text=ipsum" />
                 </div>
             </div>
+            <hr />
             <div className={styles.products}>
                 <ProductList />
             </div>
